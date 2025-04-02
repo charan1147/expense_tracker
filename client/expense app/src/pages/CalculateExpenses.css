@@ -1,0 +1,68 @@
+.calculate-expenses {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .calculate-expenses h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .calculate-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculate-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .calculate-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .split-results {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .expense-card {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-left: 5px solid #007bff;
+  }
+  
+  .expense-card strong {
+    color: #007bff;
+  }
+  
+  .expense-card ul {
+    padding-left: 20px;
+  }
+  
+  .expense-card li {
+    list-style-type: none;
+    font-size: 14px;
+    color: #555;
+  }
+  

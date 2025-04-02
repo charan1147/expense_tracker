@@ -1,0 +1,54 @@
+/* Center everything */
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Flexbox to align buttons side by side */
+  .option-container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;
+    gap: 40px; /* Adds space between buttons */
+    margin-top: 30px;
+  }
+  
+  /* Remove any unwanted box effect */
+  .container1,
+  .container2 {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+  }
+  
+  /* Button styling */
+  .container1 button,
+  .container2 button {
+    padding: 15px 40px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: white;
+  }
+  
+  /* Button colors */
+  .container1 button {
+    background-color: #007bff;
+  }
+  
+  .container2 button {
+    background-color: #28a745;
+  }
+  
+  /* Button hover effect */
+  .container1 button:hover,
+  .container2 button:hover {
+    opacity: 0.8;
+  }
+  

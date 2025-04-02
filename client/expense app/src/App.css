@@ -1,0 +1,44 @@
+/* App.css */
+
+/* Define Global Text Colors */
+:root {
+  --primary-text: #333;  /* Default text color */
+  --secondary-text: #666; /* Slightly muted text */
+  --error-text: #dc3545; /* Error messages */
+  --link-text: #007bff;  /* Links */
+}
+
+/* Apply colors globally */
+body {
+  color: var(--primary-text);
+  font-family: Arial, sans-serif;
+}
+
+/* Utility classes (for easy reuse) */
+.text-primary {
+  color: var(--primary-text);
+}
+
+.text-secondary {
+  color: var(--secondary-text);
+}
+
+.text-error {
+  color: var(--error-text);
+}
+
+.text-link {
+  color: var(--link-text);
+  text-decoration: none;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+/* Button Styling */
+button {
+  color: var(--button-text);
+  cursor: pointer;
+}
+

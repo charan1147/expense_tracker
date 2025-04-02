@@ -1,0 +1,96 @@
+.group-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .group-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .group-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  .member-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .member-input input {
+    flex: 1;
+  }
+  
+  .member-input button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .member-input button:hover {
+    background-color: #218838;
+  }
+  
+  .member-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .member-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e9ecef;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .member-list button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .member-list button:hover {
+    background-color: #c82333;
+  }
+  
+  .group-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .group-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
